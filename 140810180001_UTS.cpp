@@ -37,6 +37,7 @@ void CreateElmt(pointer& pBaru){
 void UpdateGol(pointer& pBaru){
 	pBaru=new SepakbolaList;
 	cout<<"Jumlah Gol "<<pBaru->tim<<" : "; cin>>pBaru->gol;
+	pBaru->next=NULL;
 }
 
 void insertFirst(List& First, pointer pBaru){
